@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 class Program
 {
-    static string uploadURL = "{{ .FullURL }}/api?key={{ .DisplayAPIKey }}&format=xml";
+    static string uploadURL = "https://pdftables.com/api?key=YOUR_API_KEY&format=xml";
 
     static void Main()
     {
