@@ -29,7 +29,7 @@ class MainClass
             return 1;
         }
 
-        Console.WriteLine("Written " + new System.IO.FileInfo(args[1]).Length + " bytes");
+        Console.WriteLine("Written {0} bytes", new System.IO.FileInfo(args[1]).Length);
         return 0;
     }
 
